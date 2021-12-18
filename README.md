@@ -1,6 +1,6 @@
-# 粘包
+# TCP Socket Practice
 
-## 作业说明
+# 作业说明
 * 总结几种 socket 粘包的解包方式：fix length/delimiter based/length field based frame decoder。尝试举例其应用。
 	|问题|文档位置|代码位置|
 	|-|-|-|
@@ -12,6 +12,9 @@
 	|文档说明位置|代码位置|
 	|-|-|
 	|[模拟goim解码](#GOIM)|`goim-simulate`|
+
+
+# 粘包
 
 ## 问题
 总结几种 socket 粘包的解包方式：fix length/delimiter based/length field based frame decoder。尝试举例其应用。
