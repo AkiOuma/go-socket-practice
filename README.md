@@ -9,7 +9,7 @@
 	|delimiter based|[使用特定的分隔符](#使用特定的分隔符)|`situtaion/fixLength`|
 	|length field based frame decoder|[在数据包中添加长度字段](#在数据包中添加长度字段)|`situtaion/lengthField`|
 * 实现一个从socket connection中解码出`goim`协议的解码器
-	|文档说明位置|代码位置|
+	|文档位置|代码位置|
 	|-|-|
 	|[模拟goim解码](#GOIM)|`goim-simulate`|
 
