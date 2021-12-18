@@ -1,5 +1,18 @@
 # 粘包
 
+## 作业说明
+* 总结几种 socket 粘包的解包方式：fix length/delimiter based/length field based frame decoder。尝试举例其应用。
+	|问题|文档位置|代码位置|
+	|-|-|-|
+	|模拟粘包场景|[模拟粘包情景](#模拟粘包情景)|`situtaion/stickyPackage`|
+	|fix length|[固定接受与发送端的缓冲区大小](#固定接受与发送端的缓冲区大小)|`situtaion/fixLength`|
+	|delimiter based|[使用特定的分隔符](#使用特定的分隔符)|`situtaion/fixLength`|
+	|length field based frame decoder|[在数据包中添加长度字段](#在数据包中添加长度字段)|`situtaion/lengthField`|
+* 实现一个从socket connection中解码出`goim`协议的解码器
+	|文档说明位置|代码位置|
+	|-|-|
+	|[模拟goim解码](#GOIM)|`goim-simulate`|
+
 ## 问题
 总结几种 socket 粘包的解包方式：fix length/delimiter based/length field based frame decoder。尝试举例其应用。
 
